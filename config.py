@@ -24,7 +24,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1439890119"))
 SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "-1002097138409")
 
 #Port
-PORT = os.environ.get("PORT", "8070")
+PORT = os.environ.get("PORT", "8040")
 
 #Database --⚠️ REQUIRED--
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://AnimeRavenBots:AnimeRavenBots@animeravenbots.huekk.mongodb.net/?retryWrites=true&w=majority&appName=SukunaSamaBot")
