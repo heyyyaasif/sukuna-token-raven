@@ -7,7 +7,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather, --⚠️ REQUIRED--
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7013526769:AAH8NYyta6TEbcbgbJU3sNr9_UcqysNOdI8")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6815668174:AAGpuD6VcQUxVleghmvLEEYaY1zdDbFxEZs")
 #Your API ID from my.telegram.org --⚠️ REQUIRED--
 APP_ID = int(os.environ.get("APP_ID", "24371796"))
 
@@ -15,7 +15,7 @@ APP_ID = int(os.environ.get("APP_ID", "24371796"))
 API_HASH = os.environ.get("API_HASH", "8121c78f4b8b31e88cc2623d1277338d")
 
 #Your db channel Id --⚠️ REQUIRED--
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002100796720"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002052456556"))
 
 #OWNER ID --⚠️ REQUIRED--
 OWNER_ID = int(os.environ.get("OWNER_ID", "1439890119"))
@@ -27,28 +27,28 @@ SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "-1002097138409")
 PORT = os.environ.get("PORT", "8070")
 
 #Database --⚠️ REQUIRED--
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://AnimeRavenBots:AnimeRavenBots@animeravenbots.huekk.mongodb.net/?retryWrites=true&w=majority&appName=LordAizenRavenBot")
-DB_NAME = os.environ.get("DATABASE_NAME", "LordAizenRavenBot")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://AnimeRavenBots:AnimeRavenBots@animeravenbots.huekk.mongodb.net/?retryWrites=true&w=majority&appName=SukunaSamaBot")
+DB_NAME = os.environ.get("DATABASE_NAME", "SukunaSamaBot")
 
 VERIFY_DB = os.environ.get("VERIFY_DB", "mongodb+srv://dattebayo56:dattebayo56@animeravenbots.6wcgy.mongodb.net/?retryWrites=true&w=majority")
 DBV_NAME = os.environ.get("VERIFY_DBNAME", "OrewaSanjiiBots")
 
 
-TOKEN_PIC = os.environ.get("TOKEN_PIC", "https://envs.sh/H21.jpg")
+TOKEN_PIC = os.environ.get("TOKEN_PIC", "https://envs.sh/H29.jpg")
 
 
 #Tutorial video for the user of your shortner on how to download.
 TUT_VID = os.environ.get("TUT_VID","https://t.me/How_to_Download_7x/32")
 
 
-START_PIC = os.environ.get("START_PIC", "https://envs.sh/H21.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/H21.jpg")
+START_PIC = os.environ.get("START_PIC", "https://envs.sh/H29.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/H29.jpg")
 
                         
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #Collection of pics for Bot // #Optional but atleast one pic link should be replaced if you don't want predefined links
-PICS = (os.environ.get("PICS", "https://envs.sh/H21.jpg")).split() #Required
+PICS = (os.environ.get("PICS", "https://envs.sh/H29.jpg")).split() #Required
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
